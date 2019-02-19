@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Impact Analysis
+qgisMinimumVersion=3.0
+description=QGIS 3 Impact Analysis plugin
+version=0.1
+author=Bo Victor Thomsen LIFA A/S
+email=bvt@lifa.dk
+
+about=Impact analysis implements overlay analysis for multiple layers in one go. The user draws or selects a "conflict" object and a predefined "scenario" i.e. a set of layers. The plugin selects any overlapping object to the conflict object and report this using filtering on the dataprovider for each layer defined in the scenario
+
+tracker=https://github.com/bvtlifadk/impact-analysis-3/issues
+repository=https://github.com/bvtlifadk/impact-analysis-3
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/bvtlifadk/impact-analysis-3
+category=Database
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

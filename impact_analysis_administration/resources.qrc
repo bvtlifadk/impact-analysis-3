@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/impact_analysis_administration" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
