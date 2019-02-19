@@ -165,7 +165,7 @@ class ImpactAnalysisAdministration:
         icon_path = ':/plugins/impact_analysis_administration/icon.png'
         self.add_action(
             icon_path,
-            text=self.tr(u'Impact Analisys administration'),
+            text=self.tr(u'Impact Analysis administration'),
             callback=self.run,
             parent=self.iface.mainWindow())
 
